@@ -16,7 +16,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>5500xt优化驱动</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,15 +24,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>原生电源管理</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>SSDT-PLUG_SB.PR00.aml.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>时间修复</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -53,6 +53,22 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-RHUB.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>睡眠修复</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>原生nvram</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PMC.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -944,7 +960,7 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>1</integer>
+			<integer>17</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -954,11 +970,11 @@
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
-			<true/>
+			<false/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>8</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1011,11 +1027,11 @@
 			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>DmgLoading</key>
-			<string>Signed</string>
+			<string>Any</string>
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>2</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
@@ -1025,7 +1041,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>Default</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1166,7 +1182,7 @@
 			</array>
 		</dict>
 		<key>WriteFlash</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
