@@ -122,6 +122,7 @@ EFI
 ![核显加速](https://user-images.githubusercontent.com/58576156/113426032-72668200-9405-11eb-926d-34d926454902.png)
 ![OpenCL](https://user-images.githubusercontent.com/58576156/113425405-6201d780-9404-11eb-8d37-15569bb8670e.png)
 ![Metal](https://user-images.githubusercontent.com/58576156/113425411-64fcc800-9404-11eb-8dfd-691527f4c80e.png)
+![睡眠](https://user-images.githubusercontent.com/58576156/113468556-62888580-9479-11eb-86ca-58b66263c9db.png)
 ![睿频](https://user-images.githubusercontent.com/58576156/113426271-cfface80-9405-11eb-9e33-df1704b05c36.png)
 
 
