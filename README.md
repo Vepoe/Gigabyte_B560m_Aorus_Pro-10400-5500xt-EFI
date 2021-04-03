@@ -117,7 +117,7 @@ EFI
 
 成果
 ---------------------------------------------------------------------------
-![系统信息](https://user-images.githubusercontent.com/58576156/113425972-55ca4a00-9405-11eb-87e8-2a579d550f43.png)
+![系统信息](https://user-images.githubusercontent.com/58576156/113468593-995e9b80-9479-11eb-84a5-50b07b341e4d.png)
 ![cpu](https://user-images.githubusercontent.com/58576156/113425398-5c0bf680-9404-11eb-921c-97c30826c709.png)
 ![核显加速](https://user-images.githubusercontent.com/58576156/113426032-72668200-9405-11eb-926d-34d926454902.png)
 ![OpenCL](https://user-images.githubusercontent.com/58576156/113425405-6201d780-9404-11eb-8d37-15569bb8670e.png)
